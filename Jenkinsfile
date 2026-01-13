@@ -44,7 +44,7 @@ pipeline {
       success {
         echo 'Pipeline completed successfully'
       }
-      falilure {
+      failure {
         echo 'Pipeline failed- code blocked'
       }
   }
